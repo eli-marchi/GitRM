@@ -1,0 +1,143 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "6018a284b0240f7dbc7c",
+  "position": {
+    "x": 330.83593004829794,
+    "y": 221.9532188931619,
+    "z": 54000,
+    "height": 420.87355658042964,
+    "width": 698.315080196882,
+    "tabOrder": 53000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Análisis de ventas por región:  🌍📈 Gráfico de barras horizontales que muestra las ventas totales por región, donde cada barra representa una región y la altura de la barra indica la cantidad de ventas.",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "13.3333px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " Análisis de ventas por estado:  🗺️📊 Gráfico de mapa que muestra un mapa geográfico con los diferentes estados resaltados y un tono de color que indica el nivel de ventas en cada estado. Los estados con ventas más altas se muestran con un tono más oscuro.",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "13.3333px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " Productos más vendidos:  🚀🔝 Gráfico de barras verticales que muestra los productos más vendidos en orden descendente. Cada barra representa un producto y la altura de la barra indica la cantidad de ventas.",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "13.3333px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " Productos menos vendidos:  🐌📉 Gráfico de barras verticales que muestra los productos menos vendidos en orden ascendente. Cada barra representa un producto y la altura de la barra indica la cantidad de ventas.",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "13.3333px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Opciones para filtrar las ventas por producto:  🔍⚙️ Un menú desplegable o una lista de selección que permite al usuario elegir un producto específico. Al seleccionar un producto, los gráficos anteriores se actualizan para mostrar únicamente las ventas relacionadas con ese producto. ",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "13.3333px"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Cantidad de ventas por método de pago:  💳💰 Gráfico circular que muestra la cantidad de ventas dividida por método de pago. Cada segmento del círculo representa un método de pago y el tamaño del segmento indica la proporción de ventas que se realizaron utilizando ese método.",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "13.3333px"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "isHidden": true
+}

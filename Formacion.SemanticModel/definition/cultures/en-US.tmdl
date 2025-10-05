@@ -1,0 +1,74 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "tabla_medidas.margen_opt": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla_medidas",
+			          "ConceptualProperty": "Margen.Opt"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Margen.Opt": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_medidas.rentabilidad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla_medidas",
+			          "ConceptualProperty": "Rentabilidad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Rentabilidad": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_producto.imagen": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Producto",
+			          "ConceptualProperty": "Imagen"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "´": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+
